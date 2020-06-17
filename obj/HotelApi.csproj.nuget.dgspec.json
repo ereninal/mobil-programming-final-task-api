@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\xampp\\htdocs\\HotelApi\\HotelApi.csproj": {}
+    "C:\\xampp\\htdocs\\HotelApi\\HotelApi.csproj": {}
   },
   "projects": {
-    "c:\\xampp\\htdocs\\HotelApi\\HotelApi.csproj": {
+    "C:\\xampp\\htdocs\\HotelApi\\HotelApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\xampp\\htdocs\\HotelApi\\HotelApi.csproj",
+        "projectUniqueName": "C:\\xampp\\htdocs\\HotelApi\\HotelApi.csproj",
         "projectName": "HotelApi",
-        "projectPath": "c:\\xampp\\htdocs\\HotelApi\\HotelApi.csproj",
+        "projectPath": "C:\\xampp\\htdocs\\HotelApi\\HotelApi.csproj",
         "packagesPath": "C:\\Users\\ereni\\.nuget\\packages\\",
-        "outputPath": "c:\\xampp\\htdocs\\HotelApi\\obj\\",
+        "outputPath": "C:\\xampp\\htdocs\\HotelApi\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\ereni\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -37,6 +37,24 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.1.5, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[3.1.5, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.1.5, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
